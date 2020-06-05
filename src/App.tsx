@@ -16,10 +16,9 @@ class App extends Component<{}, IAppState> {
             monsters: [],
             searchField: ''
         }
-
     }
 
-    handleChange = (e:any) => {
+    handleChange = (e: any) => {
         this.setState({searchField: e.target.value})
     }
 
